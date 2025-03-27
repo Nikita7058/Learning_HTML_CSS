@@ -1,0 +1,12 @@
+.t_uppercase {
+    text-transform: uppercase;
+}
+
+.t_lowercase {
+    text-transform: lowercase;
+    color: red;
+}
+
+.t_capitilize {
+    text-transform: capitalize;
+}
