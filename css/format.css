@@ -10,3 +10,42 @@
 .t_capitilize {
     text-transform: capitalize;
 }
+
+.t_align_center {
+    text-align: center;
+    color: red;
+}
+
+.t_align_left {
+    text-align: left;
+    color: red;
+}
+
+.t_align_right {
+    text-align: right;
+    color: red;
+}
+
+.t_indent {
+    text-indent: 7px;
+    line-height: 30px;
+}
+
+.t_letter_spacing {
+    letter-spacing: 30px;
+}
+
+.t_word_spacing {
+    word-spacing: 60px;
+}
+
+.t_decor {
+    text-decoration: underline line-through overline;
+}
+
+.t_shadow {
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+    text-shadow: 5px 6px 4px grey;
+}

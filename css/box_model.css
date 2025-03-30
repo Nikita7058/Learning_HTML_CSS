@@ -1,0 +1,11 @@
+            .box_model {
+                border: 2px solid greenyellow;
+                /* padding: 30px; */
+                /* padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px; */
+                /* sequence starting from clockwise ex: top, right, bottom, and then left*/
+                padding: 30px 70px 30px 70px;
+                margin: 50px 30px 50px 30px;
+            }
