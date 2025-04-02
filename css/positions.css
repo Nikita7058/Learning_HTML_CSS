@@ -1,0 +1,59 @@
+            .box {
+                width: 200px;
+                height: 150px;
+                background-color: lightblue;
+                border: 2px solid black;
+            }
+            
+            .box1 {
+                position: static;
+            }
+            
+            .box2 {
+                position: relative;
+                left: 300px;
+                top: 50px;
+            }
+            
+            .box3 {
+                position: absolute;
+                left: 300px;
+                top: 50px;
+            }
+            
+            .box4 {
+                position: fixed;
+                bottom: 0px;
+                right: 10px;
+            }
+            
+            .box5 {
+                position: sticky;
+                bottom: 700px;
+            }
+            
+            .hall {
+                position: relative;
+                width: 500px;
+                height: 500px;
+                background-color: lightblue;
+                left: 400px;
+            }
+            
+            .tv {
+                position: absolute;
+                width: 150px;
+                height: 100px;
+                background-color: lightgreen;
+                left: 150px;
+                top: 10px;
+            }
+            
+            .sofa {
+                position: absolute;
+                width: 250px;
+                height: 50px;
+                background-color: aqua;
+                left: 100px;
+                bottom: 300px;
+            }
