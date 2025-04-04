@@ -1,0 +1,21 @@
+h1:hover {
+    color: chartreuse;
+    background-color: black;
+    font-size: 40px;
+}
+
+h2:active {
+    color: red;
+    background-color: black;
+    font-size: 40px;
+}
+
+input:focus {
+    background-color: black;
+    color: beige;
+    font-size: 30px;
+}
+
+a:visited {
+    color: red !important;
+}

@@ -1,0 +1,22 @@
+    /* .bg_image {
+        background-image: url("../images/lily-1705913_1280.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    } */
+    
+    .h_color {
+        text-align: center;
+        color: white;
+    }
+    
+    .linear_grad {
+        height: 100vh;
+        background-image: linear-gradient(to right orange, white, green);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .radial_grad {
+        background-color: violet;
+        background-image: radial-gradient(circle, white, green);
+    }
