@@ -1,0 +1,14 @@
+.image_wrapper {
+    position: relative;
+}
+
+.inner_image {
+    height: 600px;
+    width: 700px;
+    border: 2px solid black;
+    transition: transform 6s;
+}
+
+.inner_image:hover {
+    transform: scale(1.2);
+}
