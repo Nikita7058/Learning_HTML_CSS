@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @Media only screen and (min-width:320px)and (max-width:767px) {
+            body {
+                font-size: 20px;
+                background-color: red;
+            }
+            p {
+                display: none;
+            }
+            h1,
+            h3 {
+                color: blue;
+                text-shadow: 4px 3px 4px white;
+            }
+            .text {
+                display: none;
+            }
+        }
+        
+        @media (min-width:768px) {
+            body {
+                background-color: green;
+            }
+        }
+        
+        @media(min-width:1024px) {
+            body {
+                background-color: yellow;
+            }
+            h1 {
+                color: red;
+            }
+        }
+        
+        @media(min-width:1224px) {
+            body {
+                background-color: orange;
+            }
+            h1 {
+                text-shadow: 4px 3px 4px white;
+            }
+        }
+        
+        @media(min-width:1824px) {
+            body {
+                background-color: aqua;
+            }
+        }
+        
+        @media(min-width:850px) and (max-width:950px) {
+            body {
+                background-color: purple;
+            }
+            h1,
+            h3 {
+                color: rgb(143, 161, 43);
+                background-color: yellow;
+            }
+            p {
+                display: none;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>CSS Media Queries</h1><img class="test" src="images/lily-1705913_1280.jpg">
+    <p>The background will change accourding to the viewpoint width change.</p><br><br>
+    <h3>Smartphone - <span>from 320px and up</span>(min-width:320px)</h3>
+    <p>red</p><br>
+    <h3>Tablets, iPads (portrait)- <span>from 768px and </span>(min-width:768px)</h3>
+    <p>green</p><br>
+    <h3>Tablets, iPads(landspace)- <span>from 1024px and up</span>(min-width:1024px)</h3>
+    <p>Yellow</p>
+    <h3>Desktop and laptop-<span>from 1224px and up</span>(min-width:1224px)</h3>
+    <p>orange</p><br>
+    <h3>large screens- <span>from 1824px and up</span>(min-width:1824px)</h3>
+    <p>AQUA (Zoom out if needed[ctrl & -])</p><br>
+    <h3>custom media query-<span>from 850px and up,
+        until 950px</span>(min-width:850px) and (max-width:950px)</h3>
+    <p>purple (Zoom out if needed[ctrl & -])</p><br></body>
+
+</html>
+
+</html>
